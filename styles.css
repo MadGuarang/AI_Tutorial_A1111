@@ -1,0 +1,75 @@
+/* Podstawowe style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2f33;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #23272a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Style dla sekcji */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #3c3f43;
+    border-radius: 5px;
+}
+
+/* Style dla nagłówków */
+h2 {
+    color: #7289da;
+    border-bottom: 2px solid #7289da;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #99aab5;
+}
+
+/* Style dla linków */
+a {
+    color: #00b0f4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style dla list */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Style dla przycisków */
+button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5b6eae;
+}
